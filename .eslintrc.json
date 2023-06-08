@@ -10,7 +10,7 @@
   "overrides": [
   ],
   "parserOptions": {
-    "ecmaVersion": "latest",
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
   "plugins": [
@@ -22,6 +22,7 @@
     ],
     "react/react-in-jsx-scope": "off",
     "react/jsx-one-expression-per-line": "off",
-    "linebreak-style": 0
+    "linebreak-style": 0,
+    "import/prefer-default-export": "off"
   }
 }
