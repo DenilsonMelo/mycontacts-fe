@@ -9,7 +9,12 @@ export default createGlobalStyle`
   }
 
   body{
-    background: ${({ theme }) => theme.backgroundColor};
+    background: ${({ theme }) => theme.colors.background};
+    color: ${({ theme }) => theme.colors.gray[900]};
     font-size: 16px;
+  }
+
+  button{
+    cursor: pointer;
   }
 `;
