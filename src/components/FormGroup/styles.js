@@ -9,11 +9,3 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.colors.danger.main};
   }
 `;
-
-export const ButtonContainer = styled.div`
-  margin-top: 24px;
-
-  button{
-    width: 100%;
-  }
-`;
